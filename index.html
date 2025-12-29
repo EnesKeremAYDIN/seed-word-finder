@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Word Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Seed Word Finder</h1>
+
+        <div class="controls">
+            <label><input type="radio" name="mode" value="contain" checked> Contains</label>
+            <label><input type="radio" name="mode" value="start"> Starts</label>
+            <label><input type="radio" name="mode" value="end"> Ends</label>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Type letters." autocomplete="off" autofocus>
+
+        <div id="results">
+            <div class="empty">Results will appear here.</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
